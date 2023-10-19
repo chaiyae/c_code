@@ -1,0 +1,115 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+int main()
+{
+	int ch = 0;
+	while ((ch = getchar()) != EOF)//EOF是ctrl+z
+	{
+		putchar(ch);
+	}
+	/*int ch = getchar();
+		putchar(ch);*/
+
+	//int i = 1;
+	//while (i <= 10)
+	//{
+	//	i++;
+	//	if (i == 5)
+	//		continue;
+	//		//break;
+	//	printf("%d\n", i);
+	//		//i++;
+	//}
+	////switch解决多分支
+	//int n = 1;
+	//int m = 2;
+	//switch (n)
+	//{
+	//case 1:
+	//	m++;
+	//case 2:
+	//	n++;
+	//case 3:
+	//	switch (n)
+	//	{
+	//	case 1:
+	//		n++;
+	//	case 2:
+	//		m++;
+	//		n++;
+	//		break;
+	//	}
+	//case 4:
+	//	m++;
+	//	break;
+	//defaut:
+	//	break;
+	//}
+	//printf("m=%d,n=%d\n", m, n);
+
+	//判断一个数是不是奇数
+	/*int i;
+	scanf("%d", &i);
+	if (i % 2 != 0)
+		printf("是奇数\n");
+	else
+		printf("不是奇数\n");*/
+
+	//输出1-100之间的奇数
+	/*int i = 1;
+	for (i = 1; i <= 100; i++)
+	{
+		if (i % 2 != 0)
+			printf("%d\n", i);
+	}*/
+
+	/*int i = 1;
+	while (i <= 100)
+	{
+		if (i % 2 == 1)
+			printf("%d\n", i);
+		i++;
+	}*/
+
+	/*int i = 1;
+	while (i <= 100)
+	{
+		printf("%d\n", i);
+		i += 2;
+	}*/
+
+
+	//int age = 198;
+	//if (age < 18)
+	//	printf("未成年\n");
+	//else//{}括号括起来的是代码块
+	//{
+	//	if (age >= 18 && age < 28)
+	//		printf("青年\n");
+	//	else if (age >= 28 && age < 50)
+	//		printf("壮年\n");
+	//	else if (age >= 50 && age < 90)
+	//		printf("老年\n");
+	//	else
+	//		printf("老\n"); 
+	//}
+	/*int age = 10;
+	if (age < 18)
+		printf("未成年\n");
+	else if (age >= 18 && age < 28)
+		printf("青年\n");
+	else if (age >= 28 && age < 50)
+		printf("壮年\n");
+	else if (age >= 50 && age < 90)
+		printf("老年\n");
+	else
+		printf("老\n");*/
+
+
+	 
+	/*if (age < 18)
+		printf("未成年\n");
+	else
+		printf("成年\n");*/
+	return 0;
+}
